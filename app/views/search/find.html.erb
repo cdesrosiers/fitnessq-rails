@@ -1,0 +1,28 @@
+<header class="fitnessq-logo">
+  <div class="container">
+    <img src="/static/images/fitnessq-logo.png"></img>
+  </div>
+</header>
+<section id="search" class="container">
+  <form id="search-form">
+    <input id="search-box" placeholder="Search for venues, equipment, trainers, programs, etc."></input>
+    <input id="search-button" type="submit" value="Search"></input>
+  </form>
+</section>
+<section id="main" class="container">
+  <div id="tabs">
+    <ul>
+      <li id="selected"><a href="#">All</a></li>
+      <li><a href="#">Videos</a></li>
+      <li><a href="#">Articles</a></li>
+      <li><a href="#">Social Media</a></li>
+      <li><a href="#">Equipment</a></li>
+      <li><a href="#">Venues</a></li>
+    </ul>
+  </div>
+  <div id="content">
+    <%= @content %>
+  </div>
+</section>
+<footer>
+</footer>

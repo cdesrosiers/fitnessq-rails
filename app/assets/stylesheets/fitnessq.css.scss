@@ -1,0 +1,90 @@
+body {
+	background-color: #EEE;
+	color: #454444;
+	margin: 0;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 0.8em;
+  font-weight: bold;
+}
+
+.container {
+	width: 1100px;
+	margin-left: auto;	
+	margin-right: auto;	
+}
+
+div#logo-homepage {
+	background: url("/static/images/fitnessq-logo-big.png") no-repeat center top;
+	text-align: center;
+	text-indent: -9999px;
+	color: transparent;
+	font-size: 0;
+	margin: auto;
+}
+
+header.fitnessq-logo {
+	background-color: #454444;
+	height: 100px;
+}
+
+section#search {
+	margin: auto;
+	padding-top: 30px;
+  form#search-form {
+    width: 600px;
+    margin-left: 250px;
+  }
+
+  input#search-box {
+    width: 80%;
+  }
+
+  input#search-button {
+    width: 18%;
+  }
+}
+
+section#main {
+  padding-top: 30px;
+}
+
+div#tabs {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    float: left;
+    margin: 0 10px 0 0;
+    &#selected {
+      position: relative;
+      top: 1px;
+      a {
+        background: white;
+        color: black;
+      }
+    }
+    a {
+      display: block;
+      border-bottom-width: 0;
+      border: solid;
+      border-radius: 4px 4px 0 0;
+      border-width: 1px 1px 0 1px;
+      border-color: black;
+      color: #00C;
+      text-decoration: none;
+      text-align: center;
+      padding: 0.5em 1em;
+      background: #EEE;
+    }
+  }
+}
+
+div#content {
+  clear: both;
+  border: 1px solid;
+  border-radius: 0 4px 4px 4px;
+  padding: 10px 10px;
+  background: white;
+}
